@@ -3,7 +3,6 @@ import codecs
 import os
 
 VERSION = '0.0.13'
-DESCRIPTION = 'Streaming video data via networks'
 
 # Setting up
 setup(
@@ -11,9 +10,7 @@ setup(
     version=VERSION,
     author="NeuralNine (Florian Dedov)",
     author_email="<mail@neuralnine.com>",
-    description=DESCRIPTION,
     long_description_content_type="text/markdown",
-    long_description=long_description,
     packages=find_packages(),
     install_requires=['opencv-python', 'pyautogui', 'pyaudio'],
     keywords=['python', 'video', 'stream', 'video stream', 'camera stream', 'sockets'],
