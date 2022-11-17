@@ -4,7 +4,6 @@ import os
 
 VERSION = '0.0.13'
 DESCRIPTION = 'Streaming video data via networks'
-LONG_DESCRIPTION = 'A package that allows to build simple streams of video, audio and camera data.'
 
 # Setting up
 setup(
